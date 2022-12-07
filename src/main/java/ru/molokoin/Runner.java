@@ -1,5 +1,8 @@
 package ru.molokoin;
 
+/**
+ * Класс содержит метод main
+ */
 public class Runner {
     public static void main(String[] args) {
         System.out.println("Запущен поток: " + Thread.currentThread().getName());
